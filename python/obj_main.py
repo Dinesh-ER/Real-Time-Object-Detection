@@ -26,6 +26,8 @@ def main_p():
     file_name = 'lable.txt'
     with open(file_name, 'rt') as fp:
         class_labels = fp.read().rstrip('\n').split('\n')
+    
+    #You can show all objects in lable or show specific objects
     print(" \n person , bicycle, motorbike, car, bus, train, truck \n")
       
     input_list=input("enter the objests to detect : ").split(' ')
@@ -106,6 +108,6 @@ def alert(x):
         alert_items.append(x)
         
         for i in range(2):
-          playsound("yyy.wav")
+          playsound("sound file name")
 
 main_p()
