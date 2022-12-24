@@ -1,2 +1,7 @@
 # Real-Time-Object-Detection
-use to detect object and log data with alram sound
+
+#SECURITY-PURPOSE
+Use to Detect object and log data with alram sound 
+
+project done with COCO model (pre-trained model)
+
